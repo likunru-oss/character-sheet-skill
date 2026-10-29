@@ -14,6 +14,22 @@
 | 左侧上/前 | 正面全身照（隐形模特，无头，有手） | 锁定服装正面 |
 | 左侧下/后 | 背面全身照（有头） | 锁定发型、肤色、体型 |
 
+## 出图效果
+
+以下都是用这个技能写的提示词、在 Nano Banana Pro 里一次直接出的图，没有用参考图。
+
+**德州老牛仔 · 55 岁**
+![德州老牛仔 55 岁人物三视图](images/01-texas-cowboy.webp)
+
+**锡克族卡车司机 · 50 岁**
+![锡克族卡车司机 50 岁人物三视图](images/02-sikh-driver.webp)
+
+**东亚上班族**
+![东亚上班族人物三视图](images/03-office-worker.webp)
+
+**拉丁裔加油站店员 · 35 岁**
+![拉丁裔加油站店员 35 岁人物三视图](images/04-gas-station-clerk.webp)
+
 ## 特点
 
 - **一条提示词直接出图**：纯文生图，不需要参考图。
@@ -50,8 +66,9 @@ git clone https://github.com/likunru-oss/character-sheet-skill.git ~/.claude/ski
 ```
 character-sheet/
 ├── SKILL.md                 # 技能主体：输入收集、固定模板、写法规则、验收清单、翻车对策
-└── references/
-    └── examples.md          # 8 个完整示例（不同年龄、族裔、性别）
+├── references/
+│   └── examples.md          # 8 个完整示例（不同年龄、族裔、性别）
+└── images/                  # README 里的出图效果示例
 ```
 
 ## 输出示例（节选）
@@ -64,9 +81,13 @@ character-sheet/
 面部瑕疵真实可见。
 ```
 
-完整提示词见 `references/examples.md`。
+更多完整提示词见 `references/examples.md`。
 
 ## 注意
 
 - 所有角色都是原创面孔，提示词里固定写明"不像任何真实名人"，也请不要用它模仿真实人物。
 - 推荐比例 16:9，文件命名 `C-<编号>-sheet.png`。
+
+## 特别鸣谢
+
+感谢 **昆汀狗**、**马鲛**、**开心鬼** 对这套模板的打磨与支持。
