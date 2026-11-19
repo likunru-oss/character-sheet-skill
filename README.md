@@ -76,7 +76,7 @@
 把整个文件夹放到 Claude Code 的个人技能目录里：
 
 ```bash
-git clone https://github.com/likunru-oss/character-sheet-skill.git ~/.claude/skills/character-sheet
+git clone https://github.com/DirectorKun/character-sheet-skill.git ~/.claude/skills/character-sheet
 ```
 
 重新打开 Claude Code 后自动生效。
